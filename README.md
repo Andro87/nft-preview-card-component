@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Mentor - NFT preview card component solution
 
-## Getting Started
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   [Overview](#overview)
+    -   [The challenge](#the-challenge)
+    -   [Screenshot](#screenshot)
+    -   [Links](#links)
+-   [My process](#my-process)
+    -   [Built with](#built-with)
+    -   [What I learned](#what-i-learned)
+-   [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### The challenge
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Users should be able to:
 
-## Learn More
+-   View the optimal layout depending on their device's screen size
+-   See hover states for interactive elements
 
-To learn more about Next.js, take a look at the following resources:
+### Screenshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![ NFT preview card component ](./public/images/screenshot.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Links
 
-## Deploy on Vercel
+-   Solution URL: [Solution URL](https://your-solution-url.com)
+-   Live Site URL: [Live site URL](https://your-live-site-url.com)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## My process
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Built with
+
+-   Semantic HTML5 markup
+-   Sass - Scss
+-   Flexbox
+-   CSS Grid
+-   Mobile-first workflow
+-   [React](https://reactjs.org/) - JS library
+-   [Next.js](https://nextjs.org/) - React framework
+
+### What I learned
+
+I used this project as part of the "Advanced CSS techniques" learning path on the Frontend Mentor platform to practice the CUBE CSS methodology created by Andy Bell.
+While working on this project, my major struggles were related to understanding the principles of this methodology and efficiently applying them.
+I'm looking forward to expanding my knowledge and learning how to adapt it to larger projects.
+
+## Author
+
+-   Frontend Mentor - [@Andro87](https://www.frontendmentor.io/profile/Andro87)

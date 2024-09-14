@@ -1,0 +1,88 @@
+@import "styles/style.scss";
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    --main-bg/*(main BG)*/: hsl(217, 54%, 11%);
+    --card-bg/*(card BG)*/: hsl(216, 50%, 16%);
+    --line/*(line)*/: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    --fs-large: 2rem;
+    --fs-base: 1.125rem;
+    --fs-small: 0.8rem;
+
+    --fw-600: 600;
+    --fw-400: 400;
+    --fw-300: 300;
+
+    --p-48: 3rem;
+    --p-24: 1.5rem;
+
+    --br-big: 15px;
+    --br-small: 10px;
+}
+
+body {
+    background-color: var(--main-bg);
+    color: var(--soft-blue);
+}
+
+span {
+    margin-right: 8px;
+}
+
+.fs-large {
+    font-size: var(--fs-large);
+}
+.fs-base {
+    font-size: var(--fs-base);
+}
+.fs-small {
+    font-size: var(--fs-small);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+.fw-300 {
+    font-weight: var(--fw-300);
+}
+
+.padding-48 {
+    padding: var(--p-48);
+}
+.padding-24 {
+    padding: var(--p-24);
+}
+
+.br-small {
+    border-radius: var(--br-small);
+}
+.br-big {
+    border-radius: var(--br-big);
+}
+
+.br-circle {
+    border-radius: 50%;
+}
+
+.bg-card {
+    background-color: var(--card-bg);
+}
+
+.bg-line {
+    background-color: var(--line);
+}
+
+.light-clr {
+    color: var(--white);
+}
+
+.accent-clr {
+    color: var(--cyan);
+}

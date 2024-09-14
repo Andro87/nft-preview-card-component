@@ -1,0 +1,24 @@
+.main_img {
+    position: relative;
+    display: block;
+    height: 350px;
+    overflow: hidden;
+
+    img {
+        object-fit: cover;
+    }
+
+    &:hover {
+        cursor: pointer;
+        &:before {
+            content: url("../../../public/images/icon-view.svg");
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            background-color: hsla(178, 100%, 50%, 0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
