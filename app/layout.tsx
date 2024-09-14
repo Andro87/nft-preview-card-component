@@ -4,6 +4,11 @@ import "./globals.scss";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
+export const viewport = {
+    width: "device-width",
+    initialScale: 1
+};
+
 export const metadata: Metadata = {
     title: "Frontend Mentor | NFT preview card component",
     description: "A project from the Frontend Mentor Platform"

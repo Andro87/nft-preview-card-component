@@ -3,13 +3,16 @@ import Image from "next/image";
 export default function Home() {
     return (
         <main className=" [ wrapper flow ] [ bg-card padding-24  br-big ]">
-            <a href="/" className=" [ main_img ]  [ br-small ] ">
+            <a
+                href="/"
+                aria-label="show more info"
+                className=" [ main_img ]  [ br-small ] "
+            >
                 <Image
                     src="/images/image-equilibrium.jpg"
-                    alt=" "
+                    alt=""
                     fill
                     sizes="350px"
-                    priority
                 />
             </a>
 
